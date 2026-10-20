@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="HttpServerEngineKind.cs" />
+    <Compile Include="IHttpContext.cs" />
+    <Compile Include="IHttpEngine.cs" />
+    <Compile Include="HttpContextBase.cs" />
+    <Compile Include="HttpListenerContextAdapter.cs" />
+    <Compile Include="SocketHttpContext.cs" />
+    <Compile Include="HttpListenerEngine.cs" />
+    <Compile Include="SocketHttpEngine.cs" />
+    <Compile Include="SimpleHttpServerSettings.cs" />
+    <Compile Include="SimpleHttpServer.cs" />
+    <Compile Include="Utils.cs" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+# Visual Studio temp files
+**/bin
+**/obj
+**/.vs
+**/packages
+**/ref-*
+*.suo
+*.obj
+*.lib
+*.exp
+
+**/debug
+**/release
+**/log
+**/logs
+
+*.log
+*.dll
+*.exe
+*.pdb
+
+node_modules/

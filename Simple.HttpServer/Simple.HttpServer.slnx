@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Simple.HttpServer.csproj" />
+  <Project Path="Simple.HttpServer.Tests/Simple.HttpServer.Tests.csproj" />
+</Solution>

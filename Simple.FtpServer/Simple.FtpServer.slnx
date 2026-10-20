@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="src/Simple.FtpServer.Host/Simple.FtpServer.Host.csproj" />
+  <Project Path="src/Simple.FtpServer/Simple.FtpServer.csproj" />
+  <Project Path="tests/Simple.FtpServer.Tests/Simple.FtpServer.Tests.csproj" />
+</Solution>
